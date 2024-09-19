@@ -9,6 +9,8 @@ from dash import callback
 import plotly.express as px
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP],suppress_callback_exceptions=True)
+server = app.server
+
 
 pasta_raiz = Path(__file__).parent.parent
 #matriculas = pd.read_csv(pasta_raiz / 'data/PDA_PNP_Matriculas.csv')
