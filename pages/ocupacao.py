@@ -9,8 +9,7 @@ from dash import callback
 import plotly.express as px
 import plotly.graph_objects as go
 from numpy import inf
-import warnings
-warnings.filterwarnings("ignore")
+
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP],suppress_callback_exceptions=True)
 

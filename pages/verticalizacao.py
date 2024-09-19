@@ -9,8 +9,7 @@ from dash import callback
 import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
-import warnings
-warnings.filterwarnings("ignore")
+
 
 def modulacao(valor):
     print(valor)

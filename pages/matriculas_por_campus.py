@@ -7,8 +7,7 @@ import pandas as pd
 from pathlib import Path
 from dash import callback
 import plotly.express as px
-import warnings
-warnings.filterwarnings("ignore")
+
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP],suppress_callback_exceptions=True)
 
