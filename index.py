@@ -9,6 +9,7 @@ from pages import home, matriculas_por_campus, matriculas_por_tipo, matriculas_e
 from pages import matriculas_anual, eficiencia_academica, RAP_RAPP, RIV, evasao, ocupacao, verticalizacao
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP],suppress_callback_exceptions=True)
+server = app.server
 
 app.layout = html.Div([
     dcc.Location(id='location'),
