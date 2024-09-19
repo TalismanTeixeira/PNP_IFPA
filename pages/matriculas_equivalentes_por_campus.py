@@ -7,9 +7,8 @@ import pandas as pd
 from pathlib import Path
 from dash import callback
 import plotly.express as px
-import locale
 
-locale.setlocale(locale.LC_ALL , 'pt_BR')
+
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP],suppress_callback_exceptions=True)
 
 pasta_raiz = Path(__file__).parent.parent

@@ -3,6 +3,5 @@ dash_bootstrap_components
 pandas
 pathlib
 plotly
-locale
 warnings
 numpy
